@@ -42,9 +42,12 @@ OAuth 目前的版本为2.0, 详细标准请参考[RFC 6749](http://www.rfcreade
    
  ![code](https://github.com/MrSummer33/Xia_Oauth2/blob/master/pictire/WechatIMG246.jpeg)
 
-### 原理
- 客户端将用户名密码转发到认证服务器完成认证过程，并换取token.
-    
+### 步骤
+
+ 1. 用户向客户端服务器提供用户名密码
+ 2. 客户端服务器拿着用户名密码发给认证服务器，请求token
+ 3. 认证服务器确认合法后，返回token
+ 
 ## 授权模式－授权码模式
 todo
 ## 授权模式－简化模式
