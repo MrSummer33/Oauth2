@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:9999/oauth/token
+      userAuthorizationUri: http://localhost:9999/oauth/authorize
+      client-id: xiaxi-client
+      client-secret: xiaxi-secret
+    resource:
+      prefer-token-info: false
+      userInfoUri: http://localhost:9999/oauth/token
+server:
+  port: 9090
+

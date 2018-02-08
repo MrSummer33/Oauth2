@@ -1,0 +1,10 @@
+#security.oauth2.client.clientId: xia-client
+#security.oauth2.client.clientSecret: xia-secret
+#security.oauth2.client.authorized-grant-types: authorization_code,refresh_token,password
+#security.oauth2.client.scope: openid
+
+server.port: 9999
+#security.user.password: xiaxi
+
+
+#management.security.enable: false
