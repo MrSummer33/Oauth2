@@ -34,10 +34,9 @@
     "refresh_token": "9f1660a9-a725-4827-b59a-a4b04abb8577",
     "expires_in": 998131,
     "scope": "openid"
-    
-代码：
+   
+ ![code](https://github.com/MrSummer33/Xia_Oauth2/blob/master/pictire/WechatIMG246.jpeg)
 
-  
 ### 原理
  客户端将用户名密码转发到认证服务器完成认证过程，并换取token.
     
