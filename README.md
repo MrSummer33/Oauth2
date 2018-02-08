@@ -30,9 +30,9 @@ OAuth 目前的版本为2.0, 详细标准请参考[RFC 6749](http://www.rfcreade
 ## 授权模式－密码模式
 
 ### 流程
- 1. 请求：***http://localhost:9090/client/login?username=****&password=****&grant_type=password***
+ 1. request：***http://localhost:9090/client/login?username=****&password=****&grant_type=password***
 
- 2. 返回：
+ 2. response：
   ```
     "access_token": "a0e2eb18-537e-46b5-a575-a098a3b7d489",
     "token_type": "bearer",
