@@ -29,12 +29,15 @@
 
 返回：
 
-	"access_token": "a0e2eb18-537e-46b5-a575-a098a3b7d489",
+    "access_token": "a0e2eb18-537e-46b5-a575-a098a3b7d489",
     "token_type": "bearer",
     "refresh_token": "9f1660a9-a725-4827-b59a-a4b04abb8577",
     "expires_in": 998131,
     "scope": "openid"
-  
+    
+代码：
+
+  
 ### 原理
  客户端将用户名密码转发到认证服务器完成认证过程，并换取token.
     
